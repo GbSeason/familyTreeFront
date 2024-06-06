@@ -1,0 +1,56 @@
+// @font-face {
+//     font-family: 'Bosch Scans Regular';
+//     src: url('./fonts/BoschSans-Regular.otf') format('otf'),
+//         url('./fonts/BoschSans-Regular.ttf') format('ttf'),
+//         url('./fonts/BoschSans-Regular.woff') format('woff')
+// }
+// @font-face {
+//     font-family: 'Bosch Scans Bold';
+//     src: url('./fonts/BoschSans-Bold.otf') format('otf'),
+//         url('./fonts/BoschSans-Bold.ttf') format('ttf'),
+//         url('./fonts/BoschSans-Bold.woff') format('woff')
+// }
+// @font-face {
+//     font-family: 'Bosch Scans Medium';
+//     src: url('./fonts/BoschSans-Medium.otf') format('otf'),
+//         url('./fonts/BoschSans-Medium.ttf') format('ttf'),
+//         url('./fonts/BoschSans-Medium.woff') format('woff')
+// }
+// @font-face {
+//     font-family: 'Bosch Papyrus';
+//     src: url('./fonts/Papyrus.ttf') format('ttf')
+// }
+@font-face {
+    font-family: 'KaiTi';
+    src: url('./fonts/KaiTi_GB2312.ttf') format('ttf')
+}
+// *:not([class*=" el-icon-"], [class^=el-icon-],[class*=" icon-"]){
+//     font-family: Bosch Scans Regular !important;
+// }
+// @font-face {
+//     font-family: 'Bosch Script';
+//     src: url('./fonts/BoschScriptBetaE-Regular-v1_001.otf') format('otf')
+// }
+.copyRight{
+    margin-left: 20px;margin-bottom:0.5em;font-size: 12px; font-weight: 100;color: #000;font-family: BoschSans,sans-serif;
+}
+.copyRight a{
+    font-size: 12px;
+    color: #000;
+    &:hover{
+        color: #7fc6e7;
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
+.copyRight span{
+    margin-left: 2.5em;
+    font-size: 12px;
+    color: #000;
+}
+.el-dialog__header{
+    background-color: #e6e6e6;
+}
+.el-divider--horizontal{
+    margin: 12px 0!important;
+}
